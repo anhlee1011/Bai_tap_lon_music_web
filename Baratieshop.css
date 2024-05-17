@@ -7,12 +7,12 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: rgb(212, 222, 231); 
+  background-color: rgb(124, 101, 97); 
   color: #333; 
 }
 
 header {
-  background-color: #fff; 
+  background-color: #ccc; 
   color: #fff;
   padding: 20px;
 }
@@ -31,12 +31,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
 #hero {
-  background-image: url('hero-bg.jpg');
+  background-image: url('https://static.wixstatic.com/media/70b9e1_acd2d8df3fa742a7b08ec74c0fcc1020~mv2.jpg/v1/fill/w_1591,h_553,al_c,q_85,enc_auto/70b9e1_acd2d8df3fa742a7b08ec74c0fcc1020~mv2.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -50,19 +50,19 @@ nav ul li a {
 
 .hero-content h1 {
   font-size: 36px;
-  color: #333;
+  color: #fff;
   margin-bottom: 20px;
 }
 
 .hero-content p {
-  color: #333;
+  color: #fff;
   margin-bottom: 30px;
 }
 
 .btn {
   display: inline-block;
   background-color: #333; 
-  color: #ccc;
+  color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
@@ -70,7 +70,7 @@ nav ul li a {
 
 #services {
   padding: 100px 0;
-  background-color: #fff;
+  background-color: rgb(114, 100, 97);
   text-align: center;
 }
 
@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 .service p {
-  color: #333;
+  color: #fff;
 }
 
 #team {
@@ -120,7 +120,7 @@ nav ul li a {
 }
 
 .team-member p {
-  color: #666;
+  color: #fff;
 }
 
 #gallery {
@@ -140,16 +140,17 @@ nav ul li a {
 #contact {
   padding: 100px 0;
   text-align: center;
-  background-color: #f0f8ff;
+  background-image: url("https://i.pinimg.com/originals/32/4d/da/324dda92589254045e216a35ea9b1c9b.png");
 }
 
 footer {
-  background-color: #051d41; 
+  background-color: #333; 
   color: #fff;
   padding: 20px;
   text-align: center;
 }
+/* tùy chỉnh size logo */
 .imgsize{
-  width: 500px;
+  width: 600px;
   height:100px;
 }
