@@ -78,6 +78,7 @@ nav ul li a {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  color:#fff
 }
 
 .service {
@@ -141,6 +142,7 @@ nav ul li a {
   padding: 100px 0;
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/32/4d/da/324dda92589254045e216a35ea9b1c9b.png");
+  color: #fff;
 }
 
 footer {
@@ -153,4 +155,8 @@ footer {
 .imgsize{
   width: 600px;
   height:100px;
+}
+.imagesize{
+  width: 600px;
+  height: 130px;
 }
