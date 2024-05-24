@@ -117,7 +117,7 @@ nav ul li a {
 
 .team-member img {
   width: 150px;
-  border-radius: 25%; /* Thay đổi từ 50% (hình tròn) sang 0% (hình vuông) */
+  border-radius: 25%; 
   margin-bottom: 10px;
   transition: transform 0.3s ease-in-out;
 }
