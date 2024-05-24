@@ -77,14 +77,14 @@ form {
   /* Hiệu ứng focus cho các input và select */
   input:focus, select:focus {
     outline: none;
-    border-color: #66afe9;
+    border-color: #96885f;
     box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
   }
   
   /* Hiệu ứng nút submit */
   button[type="submit"] {
-    background-color: #56a9e4;
-    color: white;
+    background-color: #96885f;
+    color: #333;
     padding: 10px 20px;
     width: 500px;   
     border: none;
@@ -100,8 +100,8 @@ form {
   .box{
     display: flex;
     justify-content: center;
-    background-color: #56a9e4; 
-    color: #fff;
+    background-color: #96885f; 
+    color: #333;
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
