@@ -1,0 +1,108 @@
+body{
+    background-image:url('https://timbarbershop.vn/wp-content/uploads/2021/12/dark01-scaled.jpg') ;
+}
+
+
+/* Áp dụng cho toàn bộ form */
+form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Hiệu ứng fadeIn cho form */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Áp dụng cho các label */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  /* Hiệu ứng slideIn cho label */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Áp dụng cho các input và select */
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    animation: scaleIn 0.5s ease-in-out;
+  }
+  
+  /* Hiệu ứng scaleIn cho input và select */
+  @keyframes scaleIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Hiệu ứng hover cho các input và select */
+  input:hover, select:hover {
+    border-color: #aaa;
+  }
+  
+  /* Hiệu ứng focus cho các input và select */
+  input:focus, select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+  }
+  
+  /* Hiệu ứng nút submit */
+  button[type="submit"] {
+    background-color: #56a9e4;
+    color: white;
+    padding: 10px 20px;
+    width: 500px;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    background-color: #56a9e4; 
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }

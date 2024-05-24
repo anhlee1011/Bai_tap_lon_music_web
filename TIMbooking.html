@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baratie.easysalon.vn</title>
+    <link rel="stylesheet" href="TIMBooking.css">
+</head>
+<body>
+    <div>
+       <div class="box">
+        <h2>Đặt lịch giữ chỗ</h2>
+       </div>
+        <form id="name-form">
+          <label for="name">Họ và tên:</label>
+          <input type="text" id="name" name="name" required>
+        </form>
+        <form id="email-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </form>
+        <form id="phone-form">
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </form>
+        <form id="dichvu-form">
+            <label for="service">Dịch vụ:</label>
+          <select id="service" name="service" required>
+            <option value="">Chọn dịch vụ</option>
+            <option value="haircut">Cắt gội xả massage</option>
+            <option value="shave">Gội đầu dưỡng sinh thư giãn - relax</option>
+            <option value="coloring">Uốn định hình nếp tóc</option>
+            <option value="coloring">Nhuộn tóc-dưỡng sinh</option>
+            <option value="coloring">Chăm sóc da chuyên sâu cho Nam</option>
+          </select>
+        </form>
+        <form id="date-form">
+          <label for="date">Ngày giờ hẹn:</label>
+          <input type="datetime-local" id="date" name="date" required>
+      
+          <button type="submit">Đặt lịch</button>
+        </form>
+      </section>
+    </div>
+       
+</body>
+</html>
