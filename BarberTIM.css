@@ -1,5 +1,5 @@
 head,body{
-    background-color: #ccc;
+    background-color: rgba(30, 28, 28, 0.833); ;
 }
 
 .our-team {
@@ -40,7 +40,7 @@ head,body{
     width: 350px;
     height: 350px;
     object-fit: cover;
-    border-radius: 1px  x;
+    border: solid #96885f 3px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
