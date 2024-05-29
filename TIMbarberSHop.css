@@ -45,7 +45,14 @@ body {
   position: relative;
   z-index: 2;
 }
-
+.color-change{
+  margin-left: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+.color-change:hover{
+  color: #96885f !important;
+}
 .logo img {
   width: 200px;
   height: 200px;
