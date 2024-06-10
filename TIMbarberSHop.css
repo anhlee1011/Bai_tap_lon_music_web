@@ -400,6 +400,7 @@ ul.products li .product-info div.product-price {
 }
 .product-item{
   background-color: #3c3b3b;
+  border-radius: 30px;
 }
 .connect {
   display: flex;

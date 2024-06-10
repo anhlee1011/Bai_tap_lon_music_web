@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    line-height: 2;
+}
+.tim-story{
+    background-image: url("https://timbarbershop.vn/wp-content/uploads/2021/12/dark01-scaled.jpg");
+    background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+}
+.tim-story h2{
+    display: flex;
+    justify-content: center;    
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.tim-story .back-home a{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: rgba(221, 182, 99, 0.67);
+    margin-bottom: 20px;
+  }
+  
+  h2 b {
+    color: rgba(255, 255, 255, 0.341);
+  }
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .main-story {
+    flex-basis: 60%;
+    padding-right: 20px;
+  }
+  
+  .img-story {
+    flex-basis: 40%;
+  }
+  
+  .body-story p {
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color:#ccc;
+    font-size: 20px;
+  } 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .button-year{
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    height: 70px;
+    width: 100px;
+    border: 5px solid #96885f;
+
+  }
+  .button-year:hover{
+    background-color: #96885f;
+  }
+  .select-tim {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reason {
+    flex-basis: 55%;
+  }
+  
+  .reason h2 {
+    margin-bottom: 20px;
+  }
+  
+  .reason-select p {
+    line-height: 1.3;
+    color: #ccc;
+    font-size: 20px;
+
+  }
+  .assess{
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+    
+  }
+  .box-item{
+    background-color: #25212183;
+    width: 600px;
+    height: 400px;
+    color: #fff;
+    margin-left: 0 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: #96885f solid;
+    box-shadow: 0 0 20px rgba(47, 44, 44, 0.5);
+  }
+  .box-item b{
+    color: #96885f;
+    font-size: 20px;
+  }
+  .link{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .link p{
+    display: flex;
+    color: #fff;
+    text-align: center;
+  }
+  
