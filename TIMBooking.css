@@ -1,8 +1,6 @@
 body{
     background-image:url('https://timbarbershop.vn/wp-content/uploads/2021/12/dark01-scaled.jpg') ;
 }
-
-
 /* Áp dụng cho toàn bộ form */
 form {
     background-color: #f1f1f1;
@@ -105,4 +103,13 @@ form {
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
+  }
+  .back-home a{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  
   }
